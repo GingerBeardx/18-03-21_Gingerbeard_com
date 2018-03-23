@@ -1,0 +1,41 @@
+html {
+  font-size: 1.85rem;
+}
+body {
+  font-family: ABeeZee, helvetica, sans-serif
+}
+img {
+  max-height: 100%;
+  overflow: hidden;
+}
+#showcase {
+  background-image: url('../images/main-background.jpeg');
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content-box {
+  display: flex;
+  align-items: center;
+  height: 40%;
+  padding: 20px;
+  margin-bottom: 17%;
+}
+.content-box span {
+  font-size: 1.25rem;
+  line-height: 1.3em;
+  color: #ffdfac;
+  text-shadow: 1px 1px #ca9705;
+  padding: 0 12px;
+}
+.content-box a {
+  font-size: 2rem;
+  color: #ffdfac;
+  text-shadow: 2px 2px #ca9705;
+}
+
